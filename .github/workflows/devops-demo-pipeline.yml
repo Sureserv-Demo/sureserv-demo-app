@@ -92,8 +92,8 @@ jobs:
       - name: Deploy to Azure web app
         uses: azure/webapps-deploy@v3
         with: 
-          app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          images: ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
+          app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          images: ${{ vars.DOCKER_IMAGE }}:${{ github.sha }}
   
       - name: Azure logout
         run: az logout
