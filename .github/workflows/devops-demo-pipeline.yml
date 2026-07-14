@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_IMAGE: ${{secrets.DOCKERHUB_USERNAME}}/devops-demo-app
+  DOCKER_IMAGE: vijayhgs/devops-demo-app
   AZURE_WEBAPP_NAME: devops-demo-app
 
 jobs: 
