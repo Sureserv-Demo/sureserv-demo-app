@@ -6,8 +6,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   
-     <groupid>com.example</groupid>
-     <artifactid>devops-demo-app</artifactid>
+     <groupId>com.example</groupId>
+     <artifactId>devops-demo-app</artifactId>
      <version>1.0.0</version>
           </project> 
      
