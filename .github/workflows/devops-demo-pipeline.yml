@@ -6,11 +6,11 @@ on:
     paths: 
       - 'devops-demo-app/**'
       - '.github/workflows/devops-demo-pipeline.yml'
-  Pull_request:
-    branches: [main]
-    paths: 
-      - 'devops-demo-app/**'
-      - '.github/workflows/devops-demo-pipeline.yml'
+   Pull_request: 
+     branches: [main]
+     paths: 
+       - 'devops-demo-app/**'
+       - '.github/workflows/devops-demo-pipeline.yml'
   workflow_dispatch:
 
 env:
