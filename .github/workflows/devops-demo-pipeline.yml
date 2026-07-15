@@ -71,7 +71,7 @@ jobs:
         with:
           context: devops-demo-app
           push: true
-          tags: 
+          tags: |
             ${{ env.DOCKER_IMAGE }}:latest
             ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
           cache-from: type=gha
